@@ -17,10 +17,42 @@
       margin: 10px 5px;
       padding: 4px;
     }
-    .cardContent {
+    .card{
       padding: 10px;
+      background-color: chartreuse;
+      border: 4px solid rgba(rgb(176, 139, 167), rgb(128, 68, 0), rgba(183, 0, 255, 0.126), alpha);
+      box-shadow: 10px 10px 30px;
+      transition: transform 0.3 ease, box-shadow 0.3s ease;/*Smooth hover effect*/
     }
     .cardText {
       margin-bottom: 30px;
+      color-scheme: dark;
+      font-family: ;
     }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+  }
+  
+  input {
+      margin: 5px;
+      border-top-style: none ;
+      border-left-style: none;
+      border-right-style: none;
+      width: 40%;
+  }
+  
+  button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+
+.vertical-text {
+  writing-mode: vertical-rl; /* Text goes top to bottom, right to left */
+}
+
   
