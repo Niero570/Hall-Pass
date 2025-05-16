@@ -73,4 +73,13 @@
   transform: scale(0.95);
   transition: transform 0.1s ease;
 }
-  
+body {
+  background: linear-gradient(180deg, skyblue, purple, black);
+  animation: cascadeBg 5s infinite alternate; /* Creates a smooth transition */
+}
+
+@keyframes cascadeBg {
+  0% { background: linear-gradient(180deg, skyblue, purple, black); }
+  50% { background: linear-gradient(180deg, black, purple, skyblue); }
+  100% { background: linear-gradient(180deg, skyblue, purple, black); }
+}
